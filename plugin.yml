@@ -1,0 +1,14 @@
+name: BuyFly
+api: 4.0.0
+main: FlyShop\Ki\BuyFly
+version: 1.0.0
+author: Ki
+
+commands:
+  fly:
+    desciption: Bật\Tắt Fly hoặc mua Fly
+    permission: fly.commnad
+
+permissions:
+  fly.commnad:
+   default: true
