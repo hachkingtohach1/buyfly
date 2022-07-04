@@ -40,8 +40,9 @@ class FlyTimeTask extends Task{
                     }
                 }
     		}
-            $this->getOwningPlugin()->times->save();
+            
     	}
+      $this->getOwningPlugin()->times->save();
     }
 }
 
